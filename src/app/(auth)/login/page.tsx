@@ -1,8 +1,11 @@
 ﻿import React from 'react';
+import LoginForm from "@/app/(auth)/login/LoginForm";
 
 export default function LoginPage() {
     return (
-        <div>LoginPage</div>
-    );
+        <div className="flex items-center justify-center vertical-center">
+            <LoginForm />
+        </div>
+    )
 }
 
